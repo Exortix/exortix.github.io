@@ -10,26 +10,33 @@ h1, h2 {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
+h1 {
+  font-size: 2.2em;
+}
+
 .s1 {
-  background: url('../img/one.jpg');
+  background: url('../../img/cinema.jpg');
 }
-/* .s2 {
-  background: url('../img/home.jpg');
-} */
+.s2 {
+  background: url('../../img/movie.jpg');
+}
 .s3 {
-  background: url('../img/one.jpg');
+  background: url('../../img/anime.jpg');
 }
-.s1, .s2, .s3, .s1 .slide {
+.s4 {
+  background: url('../../img/novel.jpg');
+}
+.s5 {
+  background: url('../../img/manga.jpg');
+}
+.contact {
+  background: url('../../img/contact.jpg');
+  background-position: 100% 50%;
+}
+.section {
   background-size: cover;
 }
-.s2 .slide:nth-child(1) {
-  background: url('../img/three.jpg');
-  background-size: cover;
-}
-.s2 .slide:nth-child(2) {
-  background: url('../img/home.jpg');
-  background-size: cover;
-}
+
 .section button {
   margin: 0 auto;
   display: block;
@@ -51,14 +58,26 @@ h1, h2 {
   color: black;
   transition: all 500ms ease;
 }
+/* .s3 button:hover {
+  background-color: rgba(120, 160, 248, 1);
+}
+.s4 button:hover {
+  background-color: rgba(120, 248, 131, 1);
+}
+.s5 button:hover {
+  background-color: rgba(229, 248, 120, 1);
+} */
 .section .fp-tableCell {
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.35);
+}
+.section.s1 .fp-tableCell {
+  background-color: transparent
 }
 .s1 h1 {
   text-align: left;
   margin-left: 2em;
 }
-.s3 h1, .s3 form {
+.section.contact h1, .section.contact form {
   text-align: left;
   margin-left: 2em;
   font-size: 2em;
@@ -142,7 +161,6 @@ h1, h2 {
     font-size: 14px;
   }
   /* CSS */
-  
 }
 
 /* 
@@ -155,7 +173,6 @@ h1, h2 {
     font-size: 14px;
   }
   /* CSS */
-  
 }
 
 /* 
@@ -168,7 +185,6 @@ h1, h2 {
     font-size: 12px;
   }
   /* CSS */
-  
 }
 
 /* 

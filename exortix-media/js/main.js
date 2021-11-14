@@ -2,7 +2,7 @@ const exortix = {}
 exortix.console = console;
 console = {};
 clear = {};
-const navigationTitles = ['Home', 'Projects', 'Contact'];
+const navigationTitles = ['Home', 'Movies', 'Anime', 'Novels', 'Manga', 'Contact'];
 // const deviceType = () => {
 //   const ua = navigator.userAgent;
 //   if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
@@ -13,7 +13,6 @@ const navigationTitles = ['Home', 'Projects', 'Contact'];
 //   }
 //   return "desktop";
 // };
-
 $(document).ready(function () {
   exortix.console.clear()
   exortix.console.log(`%cWelcome to Exortix's Home.\nEnjoy! ❤️`, 'font-size: x-large');
@@ -69,14 +68,14 @@ $('.audio-controller').on('classChange', function(e){
 new fullpage('#fullpage', {
 	autoScrolling: true,
   navigation: true,
-  anchors: ['home', 'projects', 'contact'],
+  anchors: ['home', 'movies', 'anime', 'novels', 'manga', 'contact'],
   navigationTooltips: navigationTitles,
   showActiveTooltip: true,
-  scrollingSpeed: 1000,
+  scrollingSpeed: 850,
   controlArrows: false,
   slidesNavigation: true,
 	scrollHorizontally: true,
-  responsiveWidth: 0,
+  responsiveWidth: 319,
   loopTop: false,
   loopHorizontal: false,
   onLeave: function(origin, destination, direction){
