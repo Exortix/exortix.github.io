@@ -18,7 +18,7 @@ $(document).ready(function () {
   exortix.console.clear()
   exortix.console.log(`%cWelcome to Exortix's Home.\nEnjoy! ❤️`, 'font-size: x-large');
   let element =  document.querySelector('.audio-controller');
-  if (!localStorage.getItem("home_bgm_play"))
+  if (!localStorage.getItem("home_bgm_play") || (window.chrome))
     localStorage.setItem('home_bgm_play', 'off');
   if (localStorage.getItem("home_bgm_play") == "on") {
     $('.audio-controller').toggleClass('off', false);
