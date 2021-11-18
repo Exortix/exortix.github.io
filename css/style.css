@@ -30,6 +30,10 @@ h1, h2 {
   background: url('../img/home.jpg');
   background-size: cover;
 }
+.s2 .slide:nth-child(3) {
+  background: url('../img/three.jpg');
+  background-size: cover;
+}
 .section button {
   margin: 0 auto;
   display: block;
