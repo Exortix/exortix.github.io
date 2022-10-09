@@ -2,7 +2,7 @@ const exortix = {}
 exortix.console = console;
 console = {};
 clear = {};
-const navigationTitles = ['Home', 'Movies', 'Anime', 'Contact'];
+const navigationTitles = ['Home', 'Movies', 'Anime', 'Back'];
 // const deviceType = () => {
 //   const ua = navigator.userAgent;
 //   if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {

@@ -17,7 +17,8 @@ h1, h2 {
   background: url('../img/home.jpg');
 } */
 .contact {
-  background: url('../img/one.jpg');
+  background: url('../img/contact.jpg');
+  background-position: 100% 50%;
 }
 .s1, .s2, .projects, .contact, .s1 .slide, .s2 .slide {
   background-size: cover;

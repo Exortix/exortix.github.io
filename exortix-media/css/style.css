@@ -33,6 +33,9 @@ h1 {
   background: url('../../img/contact.jpg');
   background-position: 100% 50%;
 }
+.home {
+  background: url('../../img/one.jpg');
+}
 .section {
   background-size: cover;
 }
