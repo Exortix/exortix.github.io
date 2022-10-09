@@ -13,24 +13,24 @@ h1, h2 {
 .s1 {
   background: url('../img/one.jpg');
 }
-/* .s2 {
+/* .projects {
   background: url('../img/home.jpg');
 } */
-.s3 {
+.contact {
   background: url('../img/one.jpg');
 }
-.s1, .s2, .s3, .s1 .slide {
+.s1, .s2, .projects, .contact, .s1 .slide, .s2 .slide {
   background-size: cover;
 }
-.s2 .slide:nth-child(1) {
+.projects .slide:nth-child(1) {
   background: url('../img/three.jpg');
   background-size: cover;
 }
-.s2 .slide:nth-child(2) {
+.projects .slide:nth-child(2) {
   background: url('../img/home.jpg');
   background-size: cover;
 }
-.s2 .slide:nth-child(3) {
+.projects .slide:nth-child(3) {
   background: url('../img/three.jpg');
   background-size: cover;
 }
@@ -62,12 +62,12 @@ h1, h2 {
   text-align: left;
   margin-left: 2em;
 }
-.s3 h1, .s3 form {
+.contact h1, .contact form {
   text-align: left;
   margin-left: 2em;
   font-size: 2em;
 }
-#fp-nav ul li a span, .s2 .fp-slidesNav ul li a span {
+#fp-nav ul li a span, .projects .fp-slidesNav ul li a span {
   background-color: white;
 }
 .audio-controller{
