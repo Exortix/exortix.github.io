@@ -35,6 +35,10 @@ h1, h2 {
   background: url('../img/three.jpg');
   background-size: cover;
 }
+.projects .slide#pomodoro {
+  background-image: url('https://exortix.github.io/pomodoro/images/tomato.jpg');
+  background-position-y: center;
+}
 .section button {
   margin: 0 auto;
   display: block;
